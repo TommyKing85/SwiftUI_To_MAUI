@@ -22,12 +22,14 @@
             <!--         WidthRequest="50" /> -->
             <!-- </HorizontalStackLayout> -->
             
+            <!--
             <mauiLibrary:MaterialTextEditControl LeadingIconSource="heart"/>
             
-            <mauiLibrary:SegmentedButtonsControl x:Name="segmented" BackgroundColor="Coral" HorizontalOptions="Fill">
+            <mauiLibrary:SegmentedButtonsControl x:Name="segmented" BackgroundColor="Coral" HorizontalOptions="Fill"> -->
                 <!-- <mauiLibrary:SegmentedButtonsControl.Buttons> -->
                 <!--     <mauiLibrary:ButtonDescription/> -->
                 <!-- </mauiLibrary:SegmentedButtonsControl.Buttons> -->
+           <!--
             </mauiLibrary:SegmentedButtonsControl>
             
             <VerticalStackLayout x:Name="stackLayout"/>
@@ -50,6 +52,10 @@
             <Label Text="Interval:"/>
             <Entry BindingContext="{x:Reference spinEditControl}"
                    Text="{Binding Interval, Mode=TwoWay}"/>
+            
+            -->
+            
+            <mauiLibrary:HelloWorldControl></mauiLibrary:HelloWorldControl>
             
         </VerticalStackLayout>
     </ScrollView>

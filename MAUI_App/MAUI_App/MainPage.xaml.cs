@@ -7,6 +7,7 @@ public partial class MainPage : ContentPage {
         InitializeComponent();
     }
 
+    /*
     private void Button_OnClicked(object sender, EventArgs e) {
         segmented.SelectedIndices = new List<int>() { 1 };
     }
@@ -22,4 +23,5 @@ public partial class MainPage : ContentPage {
     private void Button_OnClicked3(object sender, EventArgs e) {
         stackLayout.Add(new Button(){Text = "Added button"});
     }
+    */
 }
